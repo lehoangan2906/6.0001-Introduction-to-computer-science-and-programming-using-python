@@ -8,6 +8,8 @@ new_str += s[4::30]
 new_str += s[13:10:-1]
 print(new_str)
 
+# -> 26 100
+
 # 2. For loops with Strings
 #   How many times will the code below print "common letter"?
 s1 = "mit u rock"
@@ -18,3 +20,5 @@ if len(s1) == len(s2):
             if char1 == char2:
                 print("common letter")
                 break
+
+# -> 7

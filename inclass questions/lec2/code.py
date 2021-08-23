@@ -4,6 +4,8 @@ once = "umbr"
 repeat = "ella"
 u = once + (repeat +" ")*4
 
+# -> umbrella ella ella ella
+
 # 2. Comparisions
 #   what does the code below print?
 pset_time = 15
@@ -13,6 +15,8 @@ derive = True
 drink = False
 both = drink and derive
 print(both)
+
+# -> False then False
 
 # 3. branching
 #   what's printed when x = 0 and y = 5
@@ -26,12 +30,16 @@ elif x < y:
 else:
     print("y is smaller")
 
+# -> x is smaller
+
 # 4. while loops
 #   in the code below from Lecture 2, what is printed when you type "Right"?
 n = input("You're in the Lost Forest. Go left or right? ")
 while n == "right":
     n = input("You're in the Lost Forest. Go left or right? ")
 print("You got out of the Lost Forest!")
+
+# -> You got out of the Lost Forest!
 
 # 5. For loops
 #   What is printed when the code below is run?
@@ -42,3 +50,5 @@ for i in range(5, 11, 2):
         break
         mysum += 1
 print(mysum)
+
+# -> 5
